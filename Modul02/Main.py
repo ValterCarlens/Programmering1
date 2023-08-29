@@ -14,12 +14,13 @@ age = input("Ange din ålder")
 print(age)
 
 #uppgift 5
+print("Nu ska vi räkna BMI")
 vikt = float( input("Ange din vikt (kg): "))
 längd = float(input("Ange din längd (m): "))
 
 bmi = vikt/längd**2
 
-print(bmi)
+print(f"Ditt BMI är {bmi}")
 
 
 #uppgift 6
