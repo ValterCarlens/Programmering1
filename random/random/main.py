@@ -1,11 +1,12 @@
 import os
 import json
 from msvcrt import getwch
+from functions import *
+"keys=[1, 2, 3, 4]"
 
-keys=[1, 2, 3, 4]
+"choice = getwch()"
 
-input=getwch
-
+startup()
 while True:
     os.system("cls")
 

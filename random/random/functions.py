@@ -13,5 +13,18 @@ c) CVT
 d) Halvautomatisk data
 {data["questions"][10]["alternative-two"]}""")
 
-questions()
 
+
+def startup():
+    print("""
+   -           __
+ --          ~( @\   ]
+---   _________]_[__/_>________
+     /  ____ \ <>     |  ____  ]
+    =\_/ __ \_\_______|_/ __ \__D
+________(__)_____________(__)____
+          
+{-:Välkommen till ditt körkortprov!:-}
+          """)
+    
+startup()
