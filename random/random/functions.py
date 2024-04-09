@@ -1,5 +1,7 @@
+
 import json
 import os
+import tkinter as tk
 os.system("cls")
 
 with open("weehoo.json", "r") as f:
@@ -27,4 +29,23 @@ ________(__)_____________(__)____
 {-:Välkommen till ditt körkortprov!:-}
           """)
     
-startup()
+def blaj():
+    root = tk.Tk()
+
+    root.geometry("600x700")
+    root.title("Körkortsprov")
+
+    label= tk.Label(root, text=""" 
+    __
+      ~( @\   ]
+   __________]_[__/_>_____
+   /  ____ \ <>            |  ____  ]
+    =\_/ __ \_\_________|_/ __ \__D
+______(__)_____________(__)____
+-{-:Välkommen till ditt körkortprov!:-}  
+""", font=("Arial", 10))
+    label.pack()
+
+    root.mainloop()
+
+blaj()

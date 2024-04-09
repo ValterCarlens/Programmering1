@@ -1,187 +1,69 @@
 {
     "questions": [
-        {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
+        {"question":"Vilken typ av växellåda är vanligtvis enklare att använda för nybörjare?",
+            "alternative-one": 
+            {
+                "description":"Manuell",
+                "correctanswer":false
+            },
+            "alternative-two":
+            {
+                "description":"Automatisk",
+                "correctanswer":true
+            },
+            "alternative-three": 
+            {
+                "description":"CVT",
+                "correctanswer":false
+            },
+            "alternative-four":
+            {
+                "description":"Halvautomatisk",
+                "correctanswer":false
+            }
         },
-        {
-            "alternative-one": true,
-            "alternative-two": false,
-            "alternative-three": false,
-            "alternative-four": false
+        {"question":"Vilken är den maximala tillåtna alkoholkoncentrationen i blodet för att köra lagligt?",
+            "alternative-one": 
+            {
+                "description":"0.2 promille",
+                "correctanswer":true
+            },
+            "alternative-two":
+            {
+                "description":"0,5 promille",
+                "correctanswer":false
+            },
+            "alternative-three": 
+            {
+                "description":"0,8 promille",
+                "correctanswer":false
+            },
+            "alternative-four":
+            {
+                "description":"1,0 promille",
+                "correctanswer":false
+            }
         },
+        {"question":"Vad ska du göra om du ser ett stopptecken vid en korsning?",
+        "alternative-one": 
         {
-            "alternative-one": true,
-            "alternative-two": false,
-            "alternative-three": false,
-            "alternative-four": false
+            "description":"Stanna helt och se till att korsa när det är säkert",
+            "correctanswer":true
         },
+        "alternative-two":
         {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
+            "description":"Sakta in och korsa korsningen snabbt",
+            "correctanswer":false
         },
+        "alternative-three": 
         {
-            "alternative-one": false,
-            "alternative-two": false,
-            "alternative-three": true,
-            "alternative-four": false
+            "description":"Göra en högersväng utan att stanna",
+            "correctanswer":false
         },
+        "alternative-four":
         {
-            "alternative-one": true,
-            "alternative-two": false,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": false,
-            "alternative-three": true,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": false,
-            "alternative-three": true,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": false,
-            "alternative-three": true,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": true,
-            "alternative-two": false,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": true,
-            "alternative-two": false,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": true,
-            "alternative-two": false,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": false,
-            "alternative-three": true,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": true,
-            "alternative-two": false,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": false,
-            "alternative-three": true,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": false,
-            "alternative-three": true,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": false,
-            "alternative-three": true,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": true,
-            "alternative-two": false,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": false,
-            "alternative-three": true,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
-        },
-        {
-            "alternative-one": false,
-            "alternative-two": true,
-            "alternative-three": false,
-            "alternative-four": false
+            "description":"Ignorera stopptecknet om ingen annan trafik är närvarande",
+            "correctanswer":false
         }
-    ]
-}
-
-
-
+        }
+]}

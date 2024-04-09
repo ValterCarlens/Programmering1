@@ -7,10 +7,10 @@ from functions import *
 "choice = getwch()"
 
 startup()
-while True:
-    os.system("cls")
 
-    with open("weehoo.json", "r") as f:
-        data = json.load(f)
+os.system("cls")
+startup()
+with open("weehoo.json", "r") as f:
+    data = json.load(f)
 
-    print(data["questions"][10]["alternative-two"])
+print(data["questions"][10]["alternative-two"])
