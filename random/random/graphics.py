@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk
+from tkinter import *
 from functions import *
 
 class MinGUI:
@@ -9,6 +9,14 @@ class MinGUI:
         self.root = tk.Tk()
 
         self.check_state = tk.IntVar()
+
+        def display():
+            if(checkbox.get()==True):
+                print("Hej")
+            else:
+                print("Tjenis")
+
+        checkbox = BooleanVar()
 
         self.root.geometry("600x700")
         self.root.title("Körkortsprov")
@@ -25,7 +33,7 @@ ______(__)_____________(__)____
         self.label.pack()
 
 
-        self.check = tk.Checkbutton(self.root, text="Alternativ 1", font=("Arial", 10))
+        self.check = tk.Checkbutton(self.root, text="Alternativ 1", font=("Arial", 10), variable=checkbox, onvalue=True, offvalue=False, command=display)
         self.check.pack(padx=10, pady=10)
 
         self.check = tk.Checkbutton(self.root, text="Alternativ 2", font=("Arial", 10))
